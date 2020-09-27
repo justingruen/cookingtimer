@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background_Reg"
+    android:orientation="vertical"
+    tools:context="com.fanestudios.cookingtimer.SurveyActivity">
+
+    <Button
+        android:id="@+id/btn_timerAct"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_info_details" />
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="16.5dp"
+        android:text="      Hello, this is a timer application that allows you to easily create intervals. This was originally developed for cooking, but of course feel free to use it any way you prefer. As I learn more, I will try to update the application when I can. Thank you again for downloading. \n \n       Should you have any questions, ideas, or concerns, please feel free to email me at fanestudios0@gmail.com, and I'll try to get back to you as soon as I can."
+        android:autoLink="email"
+        android:textColor="@android:color/white"/>
+
+
+
+
+</LinearLayout>
